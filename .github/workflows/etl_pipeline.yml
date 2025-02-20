@@ -26,10 +26,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Extract Script
-        run: python src/extract.py
+        run: python src/extract/extract.py
 
       - name: Run Transform Script
-        run: python src/transform.py
+        run: python src/transform/transform.py
 
       - name: Run Load Script
-        run: python src/load.py
+        run: python src/load/load.py
