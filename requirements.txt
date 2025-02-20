@@ -2,5 +2,5 @@ pandas
 numpy
 requests
 sqlalchemy
-pymysql  # If using MySQL
-pyodbc  # If connecting to SQL Server
+pymysql
+pyodbc
